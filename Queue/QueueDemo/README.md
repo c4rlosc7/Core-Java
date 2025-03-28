@@ -11,6 +11,14 @@ Queues are used to implement job scheduling for an office printer
 Queues are used to process orders for e-tickets 
 Queues are used to create algorithms for breadth-first search in graphs 
 
+```
+[    ]
+[ 7  ]
+[ 1  ]
+[ 12 ]
+[ 4  ]
+```
+
 ```Java
 public class QueueDemo {
     public static void main(String[] args) {

@@ -5,6 +5,10 @@ Java Collection framework provides a Stack class that models and implements a St
 - The Stack class extends Vector and provides additional functionality specifically for stack operations, such as push, pop, peek, empty, and search.
 - The Stack class can indeed be referred to as a subclass of Vector, inheriting its methods and properties.
 
+```
+[  ] [ 7 ] [ 1 ] [ 12 ] [ 4 ]
+```
+
 ```Java
 public class StackDemo {
     public static void main(String[] args) {
