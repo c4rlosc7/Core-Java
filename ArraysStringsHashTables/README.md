@@ -11,3 +11,7 @@ Strings, which are widely used in Java programming, are a sequence of characters
 ## Hashtables
 
 The Hashtable class in Java is one of the oldest members of the Java Collection Framework. A hash table is an unordered collection of key-value pairs, with a unique key for each value. In a hash table, data is stored in an array of list format, with a distinct index value for each data value.
+
+## Set
+
+A `Set` is a collection that does not allow duplicate elements. It's part of the Java Collections Framework and is implemented through various classes such as `HashSet`, `LinkedHashSet`, and `TreeSet`. Each of these classes has different properties and use cases.
