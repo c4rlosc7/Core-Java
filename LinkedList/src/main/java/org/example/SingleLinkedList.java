@@ -10,27 +10,27 @@ public class SingleLinkedList {
         }
 
         Node current = head;
-        while (current.next != null) {
-            current = current.next;
+        while (current.data != null) {
+            current = current.data;
         }
-        current.next = new Node(value);
+        current.data = new Node(value);
     }
 
     public void deleteNode(int value) {
         if (head == null) return;
 
         if (head.value == value) {
-            head = head.next;
+            head = head.data;
             return;
         }
         // 4-3-2-1
         Node current = head;
-        while (current.next != null) {
-            if (current.next.value == value) {
-                current.next = current.next.next;
+        while (current.data != null) {
+            if (current.data.value == value) {
+                current.data = current.data.data;
                 return;
             }
-            current = current.next;
+            current = current.data;
         }
     }
 
@@ -40,9 +40,9 @@ public class SingleLinkedList {
             return;
         }
         Node current = head;
-        while (current.next != null) {
+        while (current.data != null) {
             System.out.print(current.value + " -> ");
-            current = current.next;
+            current = current.data;
         }
         System.out.println(current.value + " -> END");
     }

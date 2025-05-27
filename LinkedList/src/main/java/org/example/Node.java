@@ -1,7 +1,7 @@
 package org.example;
 
 public class Node {
-    public Node next;
+    public Node data;
     public int value;
 
     public Node(int value) {
